@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("justice_league.jpg");
+  background-image: url("/images/justice_league.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -216,7 +216,7 @@ body {
 
 /*NOT FOUND*/
 .more-chairs {
-  background-image: url("more_chairs.png");
+  background-image: url("/images/more_chairs.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
