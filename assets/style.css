@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "JusticeLeague";
+  src: url("assets/fonts/JUSTICE LEAGUE.ttf") format("ttf");
+}
+
+body {
+  background-image: url("justice_league.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  font-family: helvetica;
+}
+
+/*LOGIN PAGE*/
+.login-header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.login-header h1 {
+  font-family: JusticeLeague;
+  font-size: 3rem;
+}
+
+.login-container {
+  border-radius: 10px;
+  height: 100%;
+  padding: 10px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: rgba(143, 143, 143, 0.5);
+}
+
+@media (max-width: 600px) {
+  .login-container {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .heroes-list {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .notFound-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .login-form input {
+    margin: 10px;
+    width: 100%;
+  }
+}
+
+.login-form {
+  font-size: 1.5rem;
+  font-family: helvetica;
+  color: white;
+}
+
+.login-form input {
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.login-form input:focus {
+  outline: none;
+}
+
+.login-form button {
+  border-radius: 8px;
+  background-color: white;
+  border: none;
+  font-size: 1.5rem;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.login-form button:focus {
+  outline: none;
+}
+
+/*HOME PAGE*/
+.welcome-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.archive-welcome {
+  font-family: JusticeLeague;
+}
+
+.logout-form button {
+  border-radius: 8px;
+  background-color: rgba(108, 8, 68, 0.426);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.logout-form button:focus {
+  outline: none;
+}
+
+.heroes-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.hero-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-item {
+  background-color: black;
+  border: 2px solid white;
+  background-color: rgba(94, 94, 94, 0.5);
+  padding: 5px;
+  margin: 7px;
+}
+
+/*PROFILE PAGE*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: helvetica;
+}
+
+.wrapper {
+  width: 75%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.info-data {
+  margin: 10px;
+}
+
+.go-back {
+  display: flex;
+  align-items: center;
+}
+
+.go-back-link {
+  text-decoration: none;
+  color: black;
+  font-family: JusticeLeague;
+}
+
+.profile-pic {
+  height: 33rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px 10px 50px;
+  padding: 10px;
+}
+
+.hero-codename {
+  font-family: JusticeLeague;
+}
+
+
+/*NOT FOUND*/
+.more-chairs {
+  background-image: url("more_chairs.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  font-family: helvetica;
+}
+
+.notFound-container {
+  font-family: JusticeLeague;
+  width: 75%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.flash-sloth {
+  height: 300px;
+}
+

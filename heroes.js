@@ -1,0 +1,14 @@
+const justiceLeague = [
+    {id: 1, codename: 'Superman', firstName: 'Clark', lastName: 'Kent', powers: ['flight', 'super strength', 'super speed', 'heat vision', 'invulnerability'], img: "https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png"},
+    {id: 2, codename: 'Batman', firstName: 'Bruce', lastName: 'Wayne', powers: ["He's Batman, just don't, trust me, you'll regret it"], img: "https://i.pinimg.com/originals/6f/ba/b8/6fbab84819d016a4e1c331f202af9b30.jpg"},
+    {id: 3, codename: 'Wonder Woman', firstName: 'Diana', lastName: 'Prince', powers: ['flight', 'super strength', 'super speed', 'invulnerability', 'enchanted gauntlets'], img: "https://i.pinimg.com/originals/81/35/90/81359004a955e75efbf9d5721b7f6c1b.jpg"},
+    {id: 4, codename: 'Flash', firstName: 'Barry', lastName: 'Allen', powers: ["Faster than light super speed"], img: "https://i.pinimg.com/originals/eb/3a/50/eb3a5051b80fb7639ff23fbab91c0bc7.jpg"},
+    {id: 5, codename: 'Aquaman', firstName: 'Arthur', lastName: 'Curry', powers: ['super strength', 'ability to breathe underwater', 'telepathic communication with sea creatures', 'ability to withstand water pressure at the bottom of the ocean'], img: "https://i.pinimg.com/originals/8d/f4/6a/8df46aeb313ce890db476f189ae5c410.jpg"},
+    {id: 6, codename: 'Cyborg', firstName: 'Victor', lastName: 'Stone', powers: ['Genius-level intellect', 'cybernetic enhancements granting super speed, flight, technopathy, self regenerative systems, and generation of boom tubes'], img: "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Cyborg_%28Victor_Stone%29.jpg/250px-Cyborg_%28Victor_Stone%29.jpg"},
+    {id: 7, codename: 'Green Lantern', firstName: 'Kyle', lastName: 'Rayner', powers: ['Generation of hard-light', 'constructs', 'Force fields', 'Space travel', 'Flight', 'Real-time translation of all-languages'], img: "https://64.media.tumblr.com/tumblr_m5s4jiVxk91qfxwtoo4_1280.jpg"},
+    {id: 8, codename: 'Martian Manhunter', firstName: "J'onn", lastName: "J'onzz", powers: ['Super strength', 'flight', 'telepathy', 'density shifting', 'shape shifting', 'telekenesis'], img: "https://static.tvtropes.org/pmwiki/pub/images/MartianManhunter350_904.jpg"},
+    {id: 9, codename: 'Black Canary', firstName: 'Dinah', lastName: 'Lance', powers: ['Master martial artist and hand-to-hand combatant', 'Ultrasonic scream(Canary cry)'], img: "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Black_Canary_%28circa_2015%29.png/250px-Black_Canary_%28circa_2015%29.png"},
+    {id: 10, codename: 'Green Arrow', firstName: 'Oliver', lastName: 'Queen', powers: ['Master martial artist and hand-to-hand combatant', 'Master archer and marksman', 'Expert acrobat', 'Utilizes high-tech equipment including armor, compound bow, and various types of specialty arrows'], img: "https://pm1.narvii.com/6089/b471f7a2bc46f6b1bd6ba9fa3367a3bc413882e1_hq.jpg"},
+   ]
+
+module.exports = justiceLeague;
