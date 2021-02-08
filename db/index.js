@@ -1,10 +1,34 @@
-// setting up the node-postgres driver
+const SQL = require('../seed');
+// console.log(SQL);
+
 const pg = require('pg');
-const postgresUrl = 'postgres://localhost/justiceleague';
-const client = new pg.Client(postgresUrl);
+let client = new pg.Client("postgres://localhost/");
 
-// connecting to the `postgres` server
-client.connect();
+client.query(`DROP DATABASE IF EXISTS justicetwo`);
+client.query(`CREATE DATABASE justicetwo`);
 
-// make the client available as a Node module
+const postgresUrl = 'postgres://localhost/justicetwo';
+client = new pg.Client(postgresUrl);
+
+const syncAndSeed = async() => {
+    await client.query(SQL);
+}
+
+const setUp = async () => {
+    try {
+      await client.connect();
+      console.log("connected to justicetwo database");
+      await syncAndSeed();
+      console.log("created tables");
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  setUp();
+
 module.exports = client;
+
+
+
+

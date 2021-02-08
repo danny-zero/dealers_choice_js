@@ -1,5 +1,4 @@
-CREATE DATABASE justiceleague;
-
+module.exports = `
 DROP TABLE IF EXISTS heroes;
 DROP TABLE IF EXISTS details;
 
@@ -41,4 +40,4 @@ INSERT INTO details (hero_id, powers, bio, img) VALUES ((SELECT id FROM heroes W
 INSERT INTO details (hero_id, powers, bio, img) VALUES ((SELECT id FROM heroes WHERE codename='Martian Manhunter'), 'Super strength, flight, telepathy, density shifting, shapeshifting, telekenesis', 'One of the last survivors of the civil war that ravaged his home planet of Mars, J''onn J''onnz traveled to Earth and now fights to protect his adoptive home. J''onn J''onzz of the planet Mars was accidentally transported to Earth, where he became one of its greatest champions under the moniker Martian Manhunter.
 ', '/images/profilePhotos/MartianManhunter350_904.jpg');
 INSERT INTO details (hero_id, powers, bio, img) VALUES ((SELECT id FROM heroes WHERE codename='Black Canary'), 'Master martial artist and hand-to-hand combatant, Ultrasonic scream (Canary Cry)', 'Black Canary is a superhero vigilante who fights crime using martial arts and a sonic scream attack. She is one of the greatest fighters on earth, and also a strong tactical mind. ', '/images/profilePhotos/250px-Black_Canary_(circa_2015).png');
-INSERT INTO details (hero_id, powers, bio, img) VALUES ((SELECT id FROM heroes WHERE codename='Green Arrow'), 'Master martial artist and hand-to-hand combatant, master archer and marksman, expert acrobat, utilizes high-tech equipment including armor, compound bow, and various types of specialty arrows', 'Oliver "Ollie" Queen is the Green Arrow, a vigilante who uses a bow and arrow to fight crime at a street level, while espousing socially liberal values.', '/images/profilePhotos/b471f7a2bc46f6b1bd6ba9fa3367a3bc413882e1_hq.jpg');
+INSERT INTO details (hero_id, powers, bio, img) VALUES ((SELECT id FROM heroes WHERE codename='Green Arrow'), 'Master martial artist and hand-to-hand combatant, master archer and marksman, expert acrobat, utilizes high-tech equipment including armor, compound bow, and various types of specialty arrows', 'Oliver "Ollie" Queen is the Green Arrow, a vigilante who uses a bow and arrow to fight crime at a street level, while espousing socially liberal values.', '/images/profilePhotos/b471f7a2bc46f6b1bd6ba9fa3367a3bc413882e1_hq.jpg');`
