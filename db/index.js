@@ -2,11 +2,6 @@ const SQL = require('../seed');
 // console.log(SQL);
 
 const pg = require('pg');
-let client = new pg.Client("postgres://localhost/");
-
-client.query(`DROP DATABASE IF EXISTS justicetwo`);
-client.query(`CREATE DATABASE justicetwo`);
-
 const postgresUrl = 'postgres://localhost/justicetwo';
 client = new pg.Client(postgresUrl);
 
