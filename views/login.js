@@ -11,7 +11,7 @@ module.exports = `<!DOCTYPE html>
                 <div class="login-header"><h1>Justice League Archive</h1></div>
                 <div class="login-container">
                     <form action="/login" method="post" class="login-form">
-                        <label for="name">Enter your name:</label>
+                        <label for="name">Enter your Codename:</label>
                         <input type="text" id="name" name="name" autocomplete="off" />
                         <button type="submit">Submit</button>
                     </form>
