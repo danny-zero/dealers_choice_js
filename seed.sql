@@ -1,5 +1,8 @@
 CREATE DATABASE justiceleague;
 
+DROP TABLE IF EXISTS heroes;
+DROP TABLE IF EXISTS details;
+
 CREATE TABLE heroes (
     id SERIAL PRIMARY KEY,
     codename TEXT,
