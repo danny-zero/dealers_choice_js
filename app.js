@@ -15,7 +15,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "/assets")));
 app.use(require('morgan')('dev'));
 
-app.listen(5000, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log("listening")
 })
 
