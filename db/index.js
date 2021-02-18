@@ -2,7 +2,7 @@ const SQL = require('../seed');
 // console.log(SQL);
 
 const pg = require('pg');
-const postgresUrl = 'postgres://localhost/justicetwo';
+const postgresUrl = process.env.DATABASE_URL || 'postgres://localhost/justicetwo';
 client = new pg.Client(postgresUrl);
 
 const syncAndSeed = async() => {
